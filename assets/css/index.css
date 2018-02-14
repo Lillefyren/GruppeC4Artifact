@@ -1,5 +1,12 @@
+@font-face {
+    font-family: "Aviano";
+    src: url("fonts/Aviano_Sans_Bold.otf");
+}
 
-
+header2 {
+  font-size: 30px;
+  font-family: "Aviano";
+}
 
 .screen_wrap {
   display: flex;
@@ -10,12 +17,16 @@
   margin: 0;
 }
 
+
+
 /* menu starter her*/
 nav {
   background: white;
   margin: 0;
   width: 100%;
   display: flex;
+  position: fixed;
+  z-index: 2;
 }
 
 ul {
@@ -29,7 +40,9 @@ li {
   background-color: white;
   margin: auto;
   padding: 15px;
-  display: block;
+  padding-left: 5%;
+  padding-right: 5%;
+  display: block;  /*what is this?*/
 }
 
 a {
