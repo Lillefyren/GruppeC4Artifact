@@ -1,10 +1,9 @@
 @font-face {
     font-family: "Aviano";
-    src: url("fonts/Aviano_Sans_Bold.otf");
+    src: url("../fonts/Aviano_Sans_Bold.otf");
 }
 
 header2 {
-  font-size: 30px;
   font-family: "Aviano";
 }
 
@@ -24,24 +23,24 @@ nav {
   background: white;
   margin: 0;
   width: 100%;
+  height: 50px;
   display: flex;
-  position: fixed;
+  position: sticky;
   z-index: 2;
 }
 
 ul {
   margin: auto;
   display: flex;
-  list-style: none;
+  list-style: none; /*what is this?*/
 }
 
 li {
+  align-self: center;
   text-align: center;
-  background-color: white;
-  margin: auto;
-  padding: 15px;
-  padding-left: 5%;
-  padding-right: 5%;
+  background-color: rgba(255, 255, 255, 1);
+  margin-left: 15%;
+  margin-right: 15%;
   display: block;  /*what is this?*/
 }
 
