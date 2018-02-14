@@ -25,23 +25,25 @@ nav {
   width: 100%;
   height: 50px;
   display: flex;
-  position: sticky;
+  position: fixed;
   z-index: 2;
+  align-content: center;
 }
 
 ul {
-  margin: auto;
+  width: 100%;
+  margin: 0;
   display: flex;
-  list-style: none; /*what is this?*/
+  list-style: none;
 }
 
 li {
   align-self: center;
   text-align: center;
   background-color: rgba(255, 255, 255, 1);
-  margin-left: 15%;
-  margin-right: 15%;
-  display: block;  /*what is this?*/
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 a {
