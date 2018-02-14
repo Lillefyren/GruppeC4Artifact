@@ -1,0 +1,27 @@
+
+
+
+.screen_wrap {
+  display: flex;
+  background-color: black;
+}
+.screen_wrap, html, body {
+  height: 100%;
+  margin: 0;
+}
+
+
+#visual_front, #tekst_beskrivelse, #product_listing{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+}
+#visual_front{
+  background-color: rgba(150, 100, 100, 1);
+}
+#tekst_beskrivelse{
+  background-color: rgba(100, 150, 100, 1);
+}
+#product_listing{
+  background-color: rgba(100, 100, 150, 1);
+}
