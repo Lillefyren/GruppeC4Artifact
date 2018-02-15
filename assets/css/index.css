@@ -83,21 +83,10 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   height: 60%;
   margin-left: 10%;
   margin-right: 10%;
-  background-color: rgba(155, 155, 155, 1);
+  background-color: rgba(150, 150, 150, 1);
 }
 
 #visual_front article {
-  position: absolute;
-  display: flex;
-  top: 70%;
-  left: 0;
-  width: 35%;
-  height: 20%;
-  margin-left: 10%;
-  background-color: rgba(200, 200, 200, 1);
-}
-
-#visual_front aside {
   position: absolute;
   display: flex;
   top: 70%;
@@ -106,6 +95,21 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   height: 20%;
   margin-right: 10%;
   background-color: rgba(200, 200, 200, 1);
+}
+
+#visual_front aside {
+  position: absolute;
+  display: flex;
+  top: 70%;
+  left: 0;
+  width: 35%;
+  height: 20%;
+  margin-left: 10%;
+  background-color: rgba(200, 200, 200, 1);
+  background-image: url("../images/artifact_logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
 }
 
 
