@@ -115,6 +115,31 @@ nav:hover, nav ul:hover, nav ul li a:hover {
 
 #tekst_beskrivelse {
   background-color: rgba(100, 150, 100, 1);
+
+}
+
+#content1 {
+  background-color: lime;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: auto;
+}
+
+#content2 {
+  background-color: deeppink;
+  position: absolute;
+  height: 100%;
+  width: 98%;
+  z-index: 1;
+}
+
+#content3 {
+  background-color: yellow;
+  position: absolute;
+  height: 100%;
+  width: 96%;
+  z-index: 2;
 }
 
 #product_listing {
