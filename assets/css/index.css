@@ -140,14 +140,15 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   width: 100%;
   z-index: auto;
   opacity: 0.5;
+  left: 15px;
 }
 
-#content3:hover {
-  transition-timing-function: linear;
-  left: 110px;
+#content1:hover {
+  left: 5px;
   background-color: red;
   transition: all 1s;
 }
+
 
 .logo1 {
   margin: auto;
@@ -170,6 +171,13 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   left: 100px;
 
 }
+
+#content2:hover {
+  transition-timing-function: linear;
+  left: 90px;
+  background-color: red;
+  transition: all 1s;
+}
 .logo2 {
   margin: auto;
   height: 250px;
@@ -184,6 +192,14 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   z-index: 2;
   left: 200px;
 }
+
+#content3:hover {
+  transition-timing-function: linear;
+  left: 190px;
+  background-color: red;
+  transition: all 1s;
+}
+
 .logo3 {
   margin: auto;
   height: 250px;
@@ -192,5 +208,6 @@ nav:hover, nav ul:hover, nav ul li a:hover {
 }
 
 #product_listing {
+  overflow: hidden;
   background-color: rgba(100, 100, 150, 1);
 }
