@@ -112,6 +112,21 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   background-position: center;
 }
 
+#visual_front header {
+  position: absolute;
+  display: flex;
+  top: 5%;
+  width: 90%;
+  height: 90%;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  border-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(250, 150, 150, 0.5);
+  z-index: 10;
+  background-image: url("../images/???.png");
+  background-size: cover;
+  background-position: center;
+}
 
 #tekst_beskrivelse {
   background-color: rgba(100, 150, 100, 1);
