@@ -130,16 +130,18 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   background-color: deeppink;
   position: absolute;
   height: 100%;
-  width: 98%;
+  width: 100%;
   z-index: 1;
+  margin: 0 0 0 5%;
 }
 
 #content3 {
   background-color: yellow;
   position: absolute;
   height: 100%;
-  width: 96%;
+  width: 100%;
   z-index: 2;
+  margin: 0 0 0 10%;
 }
 
 #product_listing {
