@@ -112,6 +112,21 @@ nav:hover, nav ul:hover, nav ul li a:hover {
   background-position: center;
 }
 
+#visual_front header {
+  position: absolute;
+  display: flex;
+  top: 5%;
+  width: 90%;
+  height: 90%;
+  margin-left: 4.5%;
+  margin-right: 4.5%;
+  border-color: rgba(255, 0, 0, 0.5);
+  background-color: rgba(250, 150, 150, 0.5);
+  z-index: 10;
+  background-image: url("../images/???.png");
+  background-size: cover;
+  background-position: center;
+}
 
 #tekst_beskrivelse {
   background-color: rgba(100, 150, 100, 1);
@@ -119,39 +134,56 @@ nav:hover, nav ul:hover, nav ul li a:hover {
 }
 
 #content1 {
-  background-color: lime;
+  background-color: white;
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: auto;
+
+
+}
+.logo1 {
+  margin: auto;
+  height: 250px;
+  width: 400px;
+}
+
+#content1:hover {
+  background-color: white;
+
+}
+
+#content1:active {
+  z-index: 9999;
+
 }
 
 #content2 {
-  background-color: deeppink;
+  background-color: white;
   position: absolute;
   height: 100%;
   width: 100%;
   z-index: 1;
-  left: 100px;
-}
 
-.transform {
-  transition: all 2s ease;
 }
-
-.active-transform {
-  width: 100%;
-  height: 100%;
-  z-index: 99;
+.logo2 {
+  margin: auto;
+  height: 250px;
+  width: 250px;
 }
 
 #content3 {
-  background-color: yellow;
+  background-color: white;
   position: absolute;
-  height: 100%;
   width: 100%;
+  height: 100%;
   z-index: 2;
-  left: 200px;
+  margin: center;
+}
+.logo3 {
+  margin: auto;
+  height: 250px;
+  display: block;
 
 }
 
