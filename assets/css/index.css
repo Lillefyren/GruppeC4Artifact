@@ -123,14 +123,22 @@ nav ul:hover, nav ul li a:hover {
   top: 5%;
   width: 90%;
   height: 90%;
-  margin-left: 4.5%;
-  margin-right: 4.5%;
-  border-color: rgba(255, 0, 0, 0.5);
-  background-color: rgba(250, 150, 150, 0.5);
+  margin-left: 5%;
+  margin-right: 5%;
+  background-color: rgba(50, 50, 50, 1);
   z-index: 10;
   background-image: url("../images/???.png");
   background-size: cover;
   background-position: center;
+}
+
+#visual_front video {
+  display: flex;
+  align-self: center;
+  width: 100%;
+  display: block;
+  margin: auto;
+  background-color: grey;
 }
 
 #tekst_beskrivelse {
