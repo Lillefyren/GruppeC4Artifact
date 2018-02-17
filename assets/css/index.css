@@ -77,69 +77,50 @@ nav ul:hover, nav ul li a:hover {
 
 #visual_front{
   display: flex;
-  background-color: rgba(250, 250, 250, 1);
+  background-color: rgba(255, 255, 255, 1);
   z-index: 1;
 }
 
 #visual_front section {
   position: absolute;
   display: flex;
-  top: 10%;
-  width: 80%;
-  height: 60%;
-  margin-left: 10%;
-  margin-right: 10%;
-  background-color: rgba(150, 150, 150, 1);
+  top: 5%;
+  width: 90%;
+  height: 85%;
+  margin: 0% 5%;
+  background-color: rgba(230, 230, 230, 1);
 }
 
 #visual_front article {
   position: absolute;
   display: flex;
-  top: 70%;
+  bottom: 0;
   right: 0;
-  width: 35%;
+  width: 50%;
   height: 20%;
-  margin-right: 10%;
-  background-color: rgba(200, 200, 200, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
 
 #visual_front aside {
   position: absolute;
   display: flex;
-  top: 70%;
+  bottom: 0;
   left: 0;
-  width: 35%;
-  height: 20%;
-  margin-left: 10%;
-  background-color: rgba(200, 200, 200, 1);
+  width: 50%;
+  height: 40%;
+  background-color: rgba(255, 255, 255, 0);
   background-image: url("../images/artifact_logo.png");
   background-repeat: no-repeat;
   background-size: contain;
-  background-position: center;
-}
-
-#visual_front header {
-  position: absolute;
-  display: flex;
-  top: 5%;
-  width: 90%;
-  height: 90%;
-  margin-left: 5%;
-  margin-right: 5%;
-  background-color: rgba(250, 250, 250, 1);
-  z-index: 10;
-  background-image: url("../images/???.png");
-  background-size: cover;
-  background-position: center;
+  background-position: bottom;
 }
 
 #visual_front video {
   display: flex;
-  align-self: center;
+  height: 80%;
   width: 100%;
   display: block;
-  margin: auto;
-  background-color: grey;
+  background-color: rgba(230, 230, 230, 1);
 }
 
 #tekst_beskrivelse {
