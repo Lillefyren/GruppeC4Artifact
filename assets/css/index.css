@@ -56,12 +56,12 @@ nav ul li a:visited {
   color: grey;
 }
 
-nav ul:hover{
+nav:hover{
   transition-timing-function: linear;
   transition: all 0.5s;
 }
 
-nav ul:hover, nav ul li a:hover {
+nav:hover, nav ul li a:hover {
   background-color: rgba(255, 255, 255, 0.8);
   text-decoration-color: black;
   color: black;
