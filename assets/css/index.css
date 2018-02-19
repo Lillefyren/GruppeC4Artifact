@@ -9,6 +9,7 @@ h2 {
 }
 
 p {
+  font-family: "Source Serif Pro", serif;
   padding: 10px 10%;
 }
 
@@ -133,11 +134,11 @@ nav:hover, nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin: auto;
   background-color: rgb(170, 170, 170);
+  margin: auto;
   width: 10%;
   height: 15%;
-  transition: height 3s linear, width 3s linear;
+  transition: height 1s linear, width 1s linear;
   overflow: hidden;
 }
 
@@ -146,24 +147,24 @@ nav:hover, nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  margin: auto;
   background-color: rgb(170, 170, 170);
+  margin: auto;
   width: 10%;
   height: 15%;
-  transition: height 3s linear, width 3s linear;
+  transition: height 1s linear, width 1s linear;
   overflow: hidden;
 }
 
 #tekstbox1:hover{
-  width: 40%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   transition: height 1s linear, width 1s linear;
   background-image: url("");
 }
 
 #tekstbox2:hover{
-  width: 40%;
-  height: 60%;
+  width: 80%;
+  height: 80%;
   transition: height 1s linear, width 1s linear;
   background-image: url("");
 }
@@ -198,14 +199,21 @@ nav:hover, nav ul li a:hover {
   z-index: 2;
 }
 
-.logo1, .logo2, .logo3 {
-  padding: 1%;
-  left: 0;
+.logo {
+  position: absolute;
+  top: 1%;
+  left: 1%;
   height: 10%;
+  width: auto;
 }
 
-.logo1 .logo2 .logo3{
-  transition: scale(1);
+.logo2 {
+  position: absolute;
+  top: 1%;
+  left: 1%;
+  top: 12%;
+  height: 10%;
+  width: auto;
 }
 
 .arrowfade {
