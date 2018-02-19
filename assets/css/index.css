@@ -123,8 +123,39 @@ nav:hover, nav ul li a:hover {
   background-color: rgba(230, 230, 230, 1);
 }
 
-#tekst_beskrivelse {
+#tekst_beskriv{
+  background-color: hotpink;
+
+}
+
+#tekstbox1{
+  margin: auto;
   background-color: rgba(100, 150, 100, 1);
+  width: 10%;
+  height: 15%;
+    transition: height 10s linear, width 10s linear;
+  overflow: hidden;
+}
+
+#tekstbox2{
+    margin: auto;
+  background-color: rgba(150, 150, 100, 1);
+  width: 10%;
+  height: 15%;
+  transition: height 10s linear, width 10s linear;
+  overflow: hidden;
+}
+
+#tekstbox1:hover{
+  width: 40%;
+  height: 60%;
+  transition: height 5s linear, width 5s linear;
+}
+
+#tekstbox2:hover{
+    width: 40%;
+    height: 60%;
+    transition: height 5s linear, width 5s linear;
 
 }
 
