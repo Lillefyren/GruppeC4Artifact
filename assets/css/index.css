@@ -3,8 +3,15 @@
     src: url("../fonts/Aviano_Sans_Bold.otf");
 }
 
-header2 {
+h2 {
+  font-family: "Aviano";
+  padding: 0 10%;
 }
+
+p {
+  padding: 0 10%;
+}
+
 
 .screen_wrap {
   display: flex;
@@ -15,11 +22,6 @@ header2 {
   height: 100%;
   margin: 0;
 }
-
-body {
-  font-family: "Aviano";
-}
-
 
 /* menu starter her*/
 nav {
@@ -101,7 +103,7 @@ nav:hover, nav ul li a:hover {
   right: 0;
   width: 50%;
   height: 20%;
-  background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(230, 230, 230, 1);
 }
 
 #visual_front aside {
@@ -127,8 +129,7 @@ nav:hover, nav ul li a:hover {
 }
 
 #tekst_beskriv{
-  background-color: hotpink;
-
+  background-color: rgba(230, 230, 230, 1);
 }
 
 #tekstbox1{
@@ -165,16 +166,29 @@ nav:hover, nav ul li a:hover {
 
 #product_listing {
   overflow: hidden;
-  background-color: #000000;
+  background-color: white;
 }
 
-#product_listing .article_overview {
+#product_listing .article_overview_1 {
   position: absolute;
   top: 10%;
-  left: 5%;
-  height: 80%;
-  width: 60%;
-  background-color: grey;
+  left: 0;
+  height: auto;
+  width: 70%;
+  background-color: rgba(230, 230, 230, 1);
+}
+
+#product_listing .article_overview_2 {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  height: auto;
+  width: 70%;
+  background-color: rgba(230, 230, 230, 1);
+}
+
+.article_overview_1:hover, .article_overview_2:hover {
+  z-index: 2;
 }
 
 .logo1, .logo2, .logo3 {
@@ -194,7 +208,8 @@ nav:hover, nav ul li a:hover {
   top: 5%;
   height: 95%;
   width: 100%;
-  z-index: 1;
+  z-index: 3;
+  transition: 3s;
 }
 
 #content1 .product_article{
@@ -228,7 +243,8 @@ nav:hover, nav ul li a:hover {
   top: 7%;
   height: 93%;
   width: 100%;
-  z-index: 2;
+  z-index: 4;
+  transition: 3s;
 }
 
 #content1 article{
@@ -250,7 +266,8 @@ nav:hover, nav ul li a:hover {
   top: 9%;
   width: 100%;
   height: 91%;
-  z-index: 3;
+  z-index: 5;
+  transition: 3s;
 }
 
 #content1 article{
