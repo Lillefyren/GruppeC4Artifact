@@ -15,7 +15,7 @@ p {
 
 .screen_wrap {
   display: flex;
-  background-color: black;
+  background-color: pink;
 }
 
 .screen_wrap, html, body {
@@ -71,7 +71,7 @@ nav:hover, nav ul li a:hover {
   color: black;
 }
 
-#visual_front, #tekst_beskrivelse, #product_listing {
+#visual_front, #our_offer, #product_listing {
   position: absolute;
   height: 100%;
   width: 100%;
@@ -91,6 +91,10 @@ nav:hover, nav ul li a:hover {
   height: 85%;
   margin: 0% 5%;
   background-color: rgba(230, 230, 230, 1);
+  background-image: url("../images/interactivelogo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
 }
 
 #visual_front article {
@@ -101,6 +105,7 @@ nav:hover, nav ul li a:hover {
   width: 50%;
   height: 20%;
   background-color: rgba(230, 230, 230, 1);
+  z-index: -1;
 }
 
 #visual_front aside {
@@ -117,23 +122,52 @@ nav:hover, nav ul li a:hover {
   background-position: bottom;
 }
 
-#visual_front video {
+#our_offer {
   display: flex;
-  height: 80%;
-  width: 100%;
-  display: block;
+  z-index: 1;
   background-color: rgba(230, 230, 230, 1);
 }
 
-#tekst_beskriv{
-  background-color: rgba(230, 230, 30, 1);
-  width: 100%;
-  display: flex;
+#our_offer .article {
+  left: 20%;
+  width: 60%;
+  position: absolute;
+  background-color: rgba(250, 250, 250, 1);
+  top: 20%;
 }
 
-#tekst_beskriv article {
+#our_offer .magnify_article {
+
+}
+
+#our_offer .option_article1 {
   position: absolute;
-  background-color: pink;
+  width: 50%;
+  left: 5%;
+  bottom: 0;
+}
+
+#our_offer .option_article2 {
+  position: absolute;
+  width: 50%;
+  right: 5%;
+  bottom: 0;
+}
+
+.option_1 {
+  position: absolute;
+  height: 80%;
+  left: 5%;
+  width: 80%;
+  bottom: 5%;
+}
+
+.option_2 {
+  position: absolute;
+  height: 80%;
+  right: 5%;
+  width: 80%;
+  bottom: 5%;
 }
 
 #tekstbox1{
@@ -142,11 +176,12 @@ nav:hover, nav ul li a:hover {
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
-  background-color: rgb(170, 170, 70);
-  margin: 0;
+  background-color: rgb(170, 170, 170);
   width: 10%;
   height: 15%;
   transition: height 1s linear, width 1s linear;
+  bottom: 0;
+  left: 0;
 }
 
 #tekstbox2{
@@ -156,25 +191,27 @@ nav:hover, nav ul li a:hover {
   background-size: contain;
   background-position: center;
   background-color: rgb(170, 170, 170);
-  right: 0;
-  margin: 0;
   width: 10%;
   height: 15%;
   transition: height 1s linear, width 1s linear;
+  bottom: 0;
+  right: 0;
 }
 
 #tekstbox1:hover{
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   transition: height 1s linear, width 1s linear;
   background-image: url("");
+  z-index: 10;
 }
 
 #tekstbox2:hover{
-  width: 80%;
-  height: 80%;
+  width: 100%;
+  height: 100%;
   transition: height 1s linear, width 1s linear;
   background-image: url("");
+  z-index: 10;
 }
 
 #tekstbox1 article {
